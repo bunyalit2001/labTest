@@ -1,11 +1,17 @@
-module github.com/idearslove/GO_API_TEST
+module github.com/idearslove/labTest
 
 go 1.19
 
-require github.com/onsi/gomega v1.26.0
+require (
+	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
+	github.com/onsi/gomega v1.26.0
+	gorm.io/gorm v1.24.3
+)
 
 require (
 	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	golang.org/x/net v0.5.0 // indirect

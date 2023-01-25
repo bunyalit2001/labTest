@@ -5,6 +5,7 @@ import (
 
 	"github.com/asaskevich/govalidator"
 	. "github.com/onsi/gomega"
+	"gorm.io/gorm"
 )
 
 type Video struct {
